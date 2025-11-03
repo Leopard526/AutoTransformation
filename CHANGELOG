@@ -1,0 +1,45 @@
+# REMOVED select object in apply transformation, due to select object can not select it when it was hidden. 
+
+# FIXED: that the buttons can be unregisterd
+
+# FEATURE: Child objects get also transformation_apply
+
+# FIXED: When the child of the mesh changed the location, rotation or scale then the button wont be removed after you applied it
+
+# FEATURE: code improvement 
+
+# FIXED: When object was disabled in viewport the object did not got Auto Transformation 
+
+# FEATURE: You can push down one button to search and apply the transformation
+
+# FEATURE: Now you can see which object has not got the transformation. You need to push a button
+
+# CHANGED: from button it is changed to label. Inside label there is obj.name, apply transformation and look button
+
+# CHANGED: UI changes in search object panel. The find all apply all is not in a box
+
+# CHANGED: Search Object UI: Apply All, Finding Non-Transformed Meshes and Find And Apply All. 
+# has no boxes serounded them. They are only in a column
+
+# CHANGES: Removed lines in search_obect_panel and give better variable names
+
+# CHANGES: select all, has no boxe around him, and is above the selection of: Location, Scale and Rotation
+
+
+# FEATURE: you can now select if you don't want to panel, search object panel and if it will search for disable_in_viewport.
+
+# Feature: In Search Objects you can now toggle if you only want scale, transformation or location to be affected. Also now it can ignore objects what are disabled in viewport
+
+# CHANGES: blender_manifest.toml has been updated
+
+# CHANGES: Added constant.py file for all the variable what will be used widly
+
+# CHANGES: Cleaned up the code, removed unused comments and shorted variable names
+
+# FIXED: show_obj_for_user now it will check if the object is disabled in viewport. and if user don't want to unhide it then it will give a info block  
+
+# FEATURE: In the search object you can change from label to buttons. So you don't need to press settings.
+
+# BUG: Fixed a bug that when that not all object get transformation in search panel. Due tue object in children were.
+
+# CHANGES: better readable code

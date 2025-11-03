@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "AutoTransformation"
+version = "1.1.0"
+name = "Auto Transformation"
+tagline = "Auto Transform or Search it"
+maintainer = "Shuai Oppers <email@address.com>"
+type = "add-on"
+
+tags = ["Modeling", "Mesh", "Object"]
+blender_version_min = "4.2.0"
+
+license = ["Modified BSD License"]
+copyright = [
+   "2025- Shuai Oppers",
+]
+
+
+
+
